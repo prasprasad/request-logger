@@ -3,7 +3,7 @@
 name: Build Project
 
 on:
-  Workflow dispatch:
+  workflow_dispatch:
 
 jobs:
   call-reusable-workflow:
