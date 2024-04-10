@@ -2,7 +2,8 @@
 
 name: Build Project
 
-on: [pull_request]
+on:
+  Workflow dispatch:
 
 jobs:
   call-reusable-workflow:
